@@ -1,12 +1,12 @@
 # wnfs-build-xcframework
-XCFramework for wnfs mobile
+XCFramework for the Wnfs swift bindings
 
-This repository contains the .xcframework files for the iOS wrapper of wnfs for react native (react-native-wnfs)
+This repository contains the .xcframework files of Wnfs swift bindings for [react native wnfs](https://github.com/functionland/react-native-wnfs)
 
 Created using the following commands:
 ```sh
-$ git clone https://github.com/functionland/wnfs-ios
+$ git clone https://github.com/functionland/wnfs-swift-bindings
 $ make && make bundle
 $ cp build bundle.zip* ..
-$ rm -rf wnfs-ios # cleanup
+$ rm -rf wnfs-swift-bindings # cleanup
 ```
