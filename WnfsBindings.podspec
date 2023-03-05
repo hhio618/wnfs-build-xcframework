@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
     # change the source location
     s.source            = { :http => 'https://github.com/hhio618/wnfs-build-xcframework/raw/main/bundle.zip' } 
     s.ios.deployment_target = '8.0'
-    s.ios.vendored_frameworks = 'WnfsBindings.xcframework' # Your XCFramework
+    s.ios.vendored_frameworks = 'build/WnfsBindings.xcframework' # Your XCFramework
 end 
